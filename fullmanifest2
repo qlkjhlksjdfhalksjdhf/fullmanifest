@@ -1,0 +1,279 @@
+{
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "http://8498bbab-e857-47c5-b6f4-477468c7cab4",
+	"@type": "sc:Manifest",
+	"label": "kjhdflkajdsf",
+	"metadata": [],
+	"description": [
+		{
+			"@value": "pages from manuscripts",
+			"@language": "en"
+		}
+	],
+	"license": "https://creativecommons.org/licenses/by/3.0/",
+	"attribution": "something",
+	"sequences": [
+		{
+			"@id": "http://fd2798f9-2aa5-43a0-93b4-8768f80fcc91",
+			"@type": "sc:Sequence",
+			"label": [
+				{
+					"@value": "Normal Sequence",
+					"@language": "en"
+				}
+			],
+			"canvases": [
+				{
+					"images": [
+						{
+							"resource": {
+								"@type": "dctypes:Image",
+								"service": {
+									"profile": "http://iiif.io/api/image/2/level1.json",
+									"@id": "https://images.lib.cam.ac.uk/iiif/MS-ADD-03020-000-00029.jp2",
+									"@context": "http://iiif.io/api/image/2/context.json"
+								},
+								"format": "image/jpg",
+								"width": 5966,
+								"@id": "https://images.lib.cam.ac.uk/iiif/MS-ADD-03020-000-00029.jp2",
+								"height": 9388
+							},
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"on": "https://cudl.lib.cam.ac.uk/iiif/MS-ADD-03020/canvas/29"
+						}
+					],
+					"@type": "sc:Canvas",
+					"width": 5966,
+					"@id": "https://cudl.lib.cam.ac.uk/iiif/MS-ADD-03020/canvas/29",
+					"label": "12r",
+					"height": 9388,
+					"related": {
+						"@id": "https://cudl.lib.cam.ac.uk/iiif/MS-ADD-03020",
+						"label": "Red Book of Thorney (MS Add. 3020)",
+						"format": ""
+					}
+				},
+				{
+					"@id": "https://digi.vatlib.it/iiif/MSS_Barb.lat.570/canvas/p0027",
+					"@type": "sc:Canvas",
+					"label": "10r",
+					"width": 2170,
+					"height": 2932,
+					"images": [
+						{
+							"@id": "https://digi.vatlib.it/iiif/MSS_Barb.lat.570/res/anno0027",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://digi.vatlib.it/iiif/MSS_Barb.lat.570/res/img0027",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://digi.vatlib.it/iiifimage/MSS_Barb.lat.570/Barb.lat.570_0027_fa_0010r.jp2",
+									"profile": "http://iiif.io/api/image/2/level2.json"
+								},
+								"width": 2170,
+								"height": 2932
+							},
+							"on": "https://digi.vatlib.it/iiif/MSS_Barb.lat.570/canvas/p0027"
+						}
+					],
+					"thumbnail": {
+						"@id": "https://digi.vatlib.it/pub/digit/MSS_Barb.lat.570/thumb/Barb.lat.570_0027_fa_0010r.tif.jpg",
+						"@type": "dctypes:Image",
+						"format": "image/jpeg",
+						"width": 117,
+						"height": 150
+					},
+					"related": {
+						"@id": "https://digi.vatlib.it/iiif/MSS_Barb.lat.570/manifest.json",
+						"label": "Barb.lat.570",
+						"format": ""
+					}
+				},
+				{
+					"@id": "https://digi.vatlib.it/iiif/MSS_Barb.lat.570/canvas/p0034",
+					"@type": "sc:Canvas",
+					"label": "big man",
+					"width": 2140,
+					"height": 2970,
+					"images": [
+						{
+							"@id": "https://digi.vatlib.it/iiif/MSS_Barb.lat.570/res/anno0034",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://digi.vatlib.it/iiif/MSS_Barb.lat.570/res/img0034",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://digi.vatlib.it/iiifimage/MSS_Barb.lat.570/Barb.lat.570_0034_fa_0011v.jp2",
+									"profile": "http://iiif.io/api/image/2/level2.json"
+								},
+								"width": 2140,
+								"height": 2970
+							},
+							"on": "https://digi.vatlib.it/iiif/MSS_Barb.lat.570/canvas/p0034"
+						}
+					],
+					"thumbnail": {
+						"@id": "https://digi.vatlib.it/pub/digit/MSS_Barb.lat.570/thumb/Barb.lat.570_0034_fa_0011v.tif.jpg",
+						"@type": "dctypes:Image",
+						"format": "image/jpeg",
+						"width": 114,
+						"height": 150
+					},
+					"related": {
+						"@id": "https://digi.vatlib.it/iiif/MSS_Barb.lat.570/manifest.json",
+						"label": "Barb.lat.570",
+						"format": ""
+					}
+				},
+				{
+					"@id": "https://digi.vatlib.it/iiif/MSS_Barb.lat.570/canvas/p0035",
+					"@type": "sc:Canvas",
+					"label": "12r",
+					"width": 2170,
+					"height": 2952,
+					"images": [
+						{
+							"@id": "https://digi.vatlib.it/iiif/MSS_Barb.lat.570/res/anno0035",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://digi.vatlib.it/iiif/MSS_Barb.lat.570/res/img0035",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://digi.vatlib.it/iiifimage/MSS_Barb.lat.570/Barb.lat.570_0035_fa_0012r.jp2",
+									"profile": "http://iiif.io/api/image/2/level2.json"
+								},
+								"width": 2170,
+								"height": 2952
+							},
+							"on": "https://digi.vatlib.it/iiif/MSS_Barb.lat.570/canvas/p0035"
+						}
+					],
+					"thumbnail": {
+						"@id": "https://digi.vatlib.it/pub/digit/MSS_Barb.lat.570/thumb/Barb.lat.570_0035_fa_0012r.tif.jpg",
+						"@type": "dctypes:Image",
+						"format": "image/jpeg",
+						"width": 116,
+						"height": 150
+					},
+					"related": {
+						"@id": "https://digi.vatlib.it/iiif/MSS_Barb.lat.570/manifest.json",
+						"label": "Barb.lat.570",
+						"format": ""
+					}
+				},
+				{
+					"images": [
+						{
+							"resource": {
+								"@type": "dctypes:Image",
+								"service": {
+									"profile": "http://iiif.io/api/image/2/level1.json",
+									"@id": "https://images.lib.cam.ac.uk/iiif/MS-ADD-03020-000-00157.jp2",
+									"@context": "http://iiif.io/api/image/2/context.json"
+								},
+								"format": "image/jpg",
+								"width": 5966,
+								"@id": "https://images.lib.cam.ac.uk/iiif/MS-ADD-03020-000-00157.jp2",
+								"height": 9388
+							},
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"on": "https://cudl.lib.cam.ac.uk/iiif/MS-ADD-03020/canvas/157"
+						}
+					],
+					"@type": "sc:Canvas",
+					"width": 5966,
+					"@id": "https://cudl.lib.cam.ac.uk/iiif/MS-ADD-03020/canvas/157",
+					"label": "77r",
+					"height": 9388,
+					"related": {
+						"@id": "https://cudl.lib.cam.ac.uk/iiif/MS-ADD-03020",
+						"label": "Red Book of Thorney (MS Add. 3020)",
+						"format": ""
+					}
+				},
+				{
+					"@id": "https://digi.vatlib.it/iiif/MSS_Barb.lat.570/canvas/p0051",
+					"@type": "sc:Canvas",
+					"label": "windows XP",
+					"width": 2200,
+					"height": 2954,
+					"images": [
+						{
+							"@id": "https://digi.vatlib.it/iiif/MSS_Barb.lat.570/res/anno0051",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://digi.vatlib.it/iiif/MSS_Barb.lat.570/res/img0051",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://digi.vatlib.it/iiifimage/MSS_Barb.lat.570/Barb.lat.570_0051_fa_0018r.jp2",
+									"profile": "http://iiif.io/api/image/2/level2.json"
+								},
+								"width": 2200,
+								"height": 2954
+							},
+							"on": "https://digi.vatlib.it/iiif/MSS_Barb.lat.570/canvas/p0051"
+						}
+					],
+					"thumbnail": {
+						"@id": "https://digi.vatlib.it/pub/digit/MSS_Barb.lat.570/thumb/Barb.lat.570_0051_fa_0018r.tif.jpg",
+						"@type": "dctypes:Image",
+						"format": "image/jpeg",
+						"width": 118,
+						"height": 150
+					},
+					"related": {
+						"@id": "https://digi.vatlib.it/iiif/MSS_Barb.lat.570/manifest.json",
+						"label": "Barb.lat.570",
+						"format": ""
+					}
+				},
+				{
+					"images": [
+						{
+							"resource": {
+								"@type": "dctypes:Image",
+								"service": {
+									"profile": "http://iiif.io/api/image/2/level1.json",
+									"@id": "https://images.lib.cam.ac.uk/iiif/MS-KK-00001-00024-000-00020.jp2",
+									"@context": "http://iiif.io/api/image/2/context.json"
+								},
+								"format": "image/jpg",
+								"width": 6526,
+								"@id": "https://images.lib.cam.ac.uk/iiif/MS-KK-00001-00024-000-00020.jp2",
+								"height": 8709
+							},
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"on": "https://cudl.lib.cam.ac.uk/iiif/MS-KK-00001-00024/canvas/20"
+						}
+					],
+					"@type": "sc:Canvas",
+					"width": 6526,
+					"@id": "https://cudl.lib.cam.ac.uk/iiif/MS-KK-00001-00024/canvas/20",
+					"label": "131v",
+					"height": 8709,
+					"related": {
+						"@id": "https://cudl.lib.cam.ac.uk/iiif/MS-KK-00001-00024",
+						"label": "Gospel Book (MS Kk.1.24)",
+						"format": ""
+					}
+				}
+			]
+		}
+	],
+	"structures": []
+}
